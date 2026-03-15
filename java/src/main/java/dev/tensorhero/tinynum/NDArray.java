@@ -1,7 +1,7 @@
-package dev.tensorhero.num4j;
+package dev.tensorhero.tinynum;
 
 /**
- * N-dimensional array — the core data structure of num4j.
+ * N-dimensional array — the core data structure of tinynum.
  *
  * <p>Internally stores data in a flat {@code float[]} with shape and strides
  * metadata, enabling zero-copy views for reshape, transpose, and slice.</p>

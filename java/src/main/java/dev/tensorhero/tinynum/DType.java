@@ -1,4 +1,4 @@
-package dev.tensorhero.num4j;
+package dev.tensorhero.tinynum;
 
 /**
  * Supported data types for {@link NDArray}.

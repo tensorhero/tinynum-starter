@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.tensorhero</groupId>
-    <artifactId>num4j</artifactId>
+    <artifactId>tinynum</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>num4j</name>
+    <name>tinynum</name>
     <description>Build Your Own NumPy in Java</description>
 
     <properties>

@@ -1,6 +1,6 @@
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
-from num4py import NDArray
+from tinynum import NDArray
 
 def emit(test_name: str, result: str) -> None:
     print(f"TEST:{test_name}")

@@ -1,6 +1,6 @@
 """Slice descriptor for NDArray indexing.
 
-Analogous to Python's built-in slice, but explicit for num4py's
+Analogous to Python's built-in slice, but explicit for tinynum's
 NDArray.slice() method.
 """
 

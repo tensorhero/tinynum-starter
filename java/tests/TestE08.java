@@ -1,4 +1,4 @@
-import dev.tensorhero.num4j.NDArray;
+import dev.tensorhero.tinynum.NDArray;
 import java.util.Arrays;
 
 public class TestE08 {

@@ -2,7 +2,7 @@
 // Provided by tinynum-starter. Do NOT modify.
 // The tester compiles and runs this file to verify your NDArray implementation.
 
-import dev.tensorhero.num4j.NDArray;
+import dev.tensorhero.tinynum.NDArray;
 import java.util.Arrays;
 
 public class TestE07 {

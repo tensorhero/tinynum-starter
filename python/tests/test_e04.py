@@ -7,10 +7,10 @@ The tester runs this file to verify your NDArray implementation.
 import os
 import sys
 
-# Ensure num4py is importable regardless of how this script is invoked
+# Ensure tinynum is importable regardless of how this script is invoked
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 
-from num4py import NDArray
+from tinynum import NDArray
 
 
 def emit(test_name: str, result: str) -> None:

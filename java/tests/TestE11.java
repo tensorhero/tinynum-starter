@@ -1,5 +1,5 @@
-import dev.tensorhero.num4j.NDArray;
-import dev.tensorhero.num4j.Slice;
+import dev.tensorhero.tinynum.NDArray;
+import dev.tensorhero.tinynum.Slice;
 import java.util.Arrays;
 
 public class TestE11 {

@@ -1,4 +1,4 @@
-package dev.tensorhero.num4j;
+package dev.tensorhero.tinynum;
 
 /**
  * Describes a slice range for one axis: [start, stop) with step.

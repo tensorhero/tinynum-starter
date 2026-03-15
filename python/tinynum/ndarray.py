@@ -1,4 +1,4 @@
-"""N-dimensional array — the core data structure of num4py.
+"""N-dimensional array — the core data structure of tinynum.
 
 Internally stores data in a flat list[float] with shape and strides
 metadata, enabling zero-copy views for reshape, transpose, and slice.
@@ -7,8 +7,8 @@ metadata, enabling zero-copy views for reshape, transpose, and slice.
 from __future__ import annotations
 from typing import Sequence
 
-from num4py.dtype import DType
-from num4py.slice import Slice
+from tinynum.dtype import DType
+from tinynum.slice import Slice
 
 
 class NDArray:

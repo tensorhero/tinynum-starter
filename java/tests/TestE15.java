@@ -1,5 +1,5 @@
-import dev.tensorhero.num4j.NDArray;
-import dev.tensorhero.num4j.DType;
+import dev.tensorhero.tinynum.NDArray;
+import dev.tensorhero.tinynum.DType;
 import java.util.Arrays;
 
 public class TestE15 {
