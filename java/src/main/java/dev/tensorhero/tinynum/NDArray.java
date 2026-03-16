@@ -8,6 +8,12 @@ package dev.tensorhero.tinynum;
  */
 public class NDArray {
 
+    // Shared RNG — call manualSeed() for reproducible results.
+    private static java.util.Random globalRng = new java.util.Random();
+
+    /** Seed the global RNG for reproducible random operations. */
+    public static void manualSeed(long seed) { globalRng = new java.util.Random(seed); }
+
     float[] data;       // flat storage
     int[] shape;        // e.g. [2, 3, 4]
     int[] strides;      // e.g. [12, 4, 1] (row-major)
