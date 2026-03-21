@@ -4,19 +4,21 @@ TinyNum 课程起始代码——从零实现一个教学版 NumPy。
 
 ## 快速开始
 
-1. **克隆代码**
+1. **克隆代码（选择你的语言分支）**
 
 ```bash
-git clone https://github.com/tensorhero/tinynum-starter
-cd tinynum-starter
+# Java
+git clone -b java https://github.com/tensorhero/tinynum-starter
+# Python
+git clone -b python https://github.com/tensorhero/tinynum-starter
 ```
 
-2. **选择语言**
+2. **核心文件**
 
-| 语言   | 目录      | 核心文件                                          |
-| ------ | --------- | ------------------------------------------------- |
-| Java   | `java/`   | `src/main/java/dev/tensorhero/num4j/NDArray.java` |
-| Python | `python/` | `num4py/ndarray.py`                               |
+| 语言   | 分支     | 核心文件                                            |
+| ------ | -------- | --------------------------------------------------- |
+| Java   | `java`   | `src/main/java/dev/tensorhero/tinynum/NDArray.java` |
+| Python | `python` | `tinynum/ndarray.py`                                |
 
 3. **完成实现**
 
