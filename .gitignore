@@ -3,20 +3,6 @@ target/
 *.class
 *.jar
 
-# Python
-__pycache__/
-*.pyc
-*.egg-info/
-.venv/
-venv/
-
-# Go
-bin/
-
-# TypeScript / Node
-node_modules/
-dist/
-
 # IDE
 .idea/
 *.iml
